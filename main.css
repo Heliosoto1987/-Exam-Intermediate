@@ -1,0 +1,75 @@
+/* HORA Y MEDIA DIOS MIO */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4a4a4a
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.separator{
+    margin-right: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+}
+
+.center{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.image{
+width: 155px;
+}
+
+@media all and (min-width: 768px){
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu{
+    margin-right: 30px;
+}
+
+.center{
+    font-size: 40px;
+}
+
+.logo{
+    margin: 20px 0px 20px 30px; 
+}
+
+}

@@ -1,3 +1,10 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
 /* HORA Y MEDIA DIOS MIO */
 
 *{
@@ -73,3 +80,4 @@ header{
 }
 
 }
+
